@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ACME</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/hover.css">
+    <link rel="stylesheet" href="../css/re.css">
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./ACME/main.1518705544.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./ACME/overwrites.1518595822.css" media="all">
+    <link rel="stylesheet" href="../css/media.css">
+    <style>
+        #colorphoto{
+            text-align: center;
+            background: #fff;
+        }
+        .fixed {
+            position: fixed;
+            top: 100px;
+            background: #ffffff;
+            width: 100%;
+            z-index: 99;
+            left: 0;
+        }
+        .nav2-fix {
+            z-index: 999999999;
+        }
+        body{
+            font-size: 14px !important;
+        }
+        .specification-category-list .specification-category-item h4.icon-arrow_down::before {
+            position: absolute;
+            font-size: 16px;
+            content:"\f078";
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            /*--adjust as necessary--*/
+            color: #000;
+            right: 10px;
+            border: 1px solid #000;
+            width: 25px;
+            height: 25px;
+            padding-left: 4px;
+            padding-top: 2px;
+            border-radius: 100%;
+            top: 0;
+        }
+        .specification-category-list .specification-category-item.open h4.icon-arrow_down::before {
+            position: absolute;
+            font-size: 16px;
+            content:"\f077";
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            /*--adjust as necessary--*/
+            color: #000;
+            padding-right: 0.5em;
+            right: 10px;
+            top: 0;
+        }
+        .top input {
+            height: 21px !important;
+            background: #ccc !important;
+            border: none !important;
+            margin-right: -20px !important;
+            margin-bottom: 0 !important;
+            width: 155px !important;
+        }
+    </style>
+</head>
+<body>
+<div class="top" style="color: #fff">
+    <input type="text" class="min-hide" style="width: 140px">
+    <img src="../img/search.png" alt="" class="min-hide">
+    <img src="../img/icoFACEBOOK.png" alt="" class="min-hide">
+    <img src="../img/icoLINKIN.png" alt="" class="min-hide">
+    <img src="../img/1.instagram.png" alt="" class="min-hide">
+    <img src="../img/2.lin.png" alt="" class="min-hide">
+    <img src="../img/3.pinterest.png" alt="" class="min-hide">
+    <img src="../img/login.jpg" alt="">
+    <span>
+        <a href="#" style="color: #fff">CH</a>
+        /
+        <a href="#">EN</a>
+    </span>
+</div>
+<div class="navblack">
+    <nav class="navbar navbar-default  nav1 ">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <select class="phonenav"><option>Menu</option><option value="#"> Home</option><option value="#">- PROJECTS</option><option value="#">- PRODUCT</option><option value="#">- SOCIAL MEDIA</option><option value="#"> About </option><option value="#">- ACME Group</option><option value="#">- Milestones</option><option value="#">- Honor</option><option value="#">- Philosophy</option><option value="#">- Management Structure</option><option value="#"> Product </option><option value="#">- Professional </option><option value="#">-- Discharge MH</option><option value="#">-- LED MH</option><option value="#">-- Static Wash</option><option value="#">-- Special Effect</option><option value="#">-- Controller</option><option value="#">-- Fog Machine</option><option value="#">-- Laser</option><option value="#">-- Electric Cabinet /ACC</option><option value="#">-- Flood light</option><option value="#">-- Media server</option><option value="#">-- Follow</option><option value="#">- Theatrical </option><option value="#">-- LED Panel</option><option value="#">-- LED Theater</option><option value="#">-- Follow</option><option value="#">-- Accessories</option><option value="#">-- Ellipsoidal</option><option value="#">-- TV/Theatre flood</option><option value="#">-- Photography</option><option value="#">- DJ Club </option><option value="#">-- LED MH</option><option value="#">-- Discharge MH</option><option value="#">-- Digital MH</option><option value="#">-- Effect Light</option><option value="#">-- Static Wash</option><option value="#">-- Laser</option><option value="#">-- Controller</option><option value="#">-- FC/ACC</option><option value="#">-- Electric Cabinet</option><option value="#">- Architectural </option><option value="#">-- Vivid</option><option value="#">-- Smart White</option><option value="#">-- V Power System</option><option value="#">-- Passive DMX Fixture</option><option value="#">-- Controller</option><option value="#">-- Accessories</option><option value="#"> News </option><option value="#">- Company</option><option value="#">- Product News</option><option value="#">- Exhibitions</option><option value="#"> Projects </option><option value="#">- Professional</option><option value="#">- Theatrical</option><option value="#">- DJ Effect</option><option value="#">- Architectural</option><option value="#">- Accessory Products</option><option value="#"> Service</option><option value="#"> Fixture Library</option><option value="#"> After-sales</option><option value="#"> Gallery</option><option value="#"> Contact</option></select>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand" href="#">
+                    <img alt="Brand" src="../img/Acme%20Logo%202017%20B3.png" class="logo">
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">PROJECTS</a></li>
+                            <li><a href="#">PRODUCT</a></li>
+                            <li><a href="#">SOCIAL MEDIA</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">PROJECTS</a></li>
+                            <li><a href="#">PRODUCT</a></li>
+                            <li><a href="#">SOCIAL MEDIA</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<div class="navblack min-hide">
+    <div class="nav2">
+        <div class="nav2-box">
+            <span>Professional</span>
+            <div class="nav2-fix">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Discharge MH</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">LED MH </a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Static Wash</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Special Effect </a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Controller</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Fog Machine</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Laser</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo" style="line-height: 1.5;">
+                                Electric
+                                <br>
+                                Cabinet /ACC
+                            </a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">
+                                Flood light
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 nav2right">
+                        <img src="../img/os5200.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav2-box">
+            <span>Professional</span>
+            <div class="nav2-fix">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Discharge MH</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">LED MH </a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Static Wash</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Special Effect </a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Controller</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Fog Machine</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">Laser</a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo" style="line-height: 1.5;">
+                                Electric
+                                <br>
+                                Cabinet /ACC
+                            </a>
+                        </div>
+                        <div class="col-lg-4 text-center  cor0 nav2left">
+                            <a class="bordo">
+                                Flood light
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 nav2right">
+                        <img src="../img/os5100.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section>
+    <div class="anchors-menu-wrapper">
+        <div class="row">
+            <ul class="nav anchors-menu-list">
+                <li class="anchors-menu-item"><a href="#product-overveiw" class="animate-to">
+                    about
+                </a></li>
+
+                <li class="anchors-menu-item"><a href="#specification" class="animate-to">
+                    specification
+                </a></li>
+
+
+                <li class="anchors-menu-item"><a href="#gobos" class="animate-to">
+                    gobos &amp; colours
+                </a></li>
+
+
+                <li class="anchors-menu-item"><a href="#multimedia" class="animate-to">
+                    inspiration
+                </a></li>
+
+
+
+                <li class="anchors-menu-item"><a href="#downloads" class="animate-to">
+                    downloads
+                </a></li>
+
+
+                <li class="anchors-menu-item"><a href="#accessories" class="animate-to">
+                    accessories
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--TYPO3SEARCH_begin-->
+<section id="content" class="page-1 pagelevel-0 language-0 backendlayout-pagets__default layout-0">
+
+
+    <div class="container-fulid fid2">
+        <!--TYPO3SEARCH_begin-->
+        <div id="c3">
+            <div class="tx-odproducts">
+                <section id="product-overveiw">
+
+                    <div class="row" style="position: relative;">
+                        <h2 class="bottom-line">
+
+                            XP-5000SZ F
+
+                        </h2>
+                        <div class="product-image columns large-4 medium-4" style="display: block;">
+                            <img id="product-pri-image" src="./ACME/endet2018010511395104461941.png" width="385"
+                                 height="414" alt="BMFL™ Spot" title="BMFL™ Spot">
+                        </div>
+                        <div class="product-text columns large-8 medium-8" style="margin-top: 0px;">
+
+                            <p class="perex narrow">
+                                ACMEbrings a real game changer in the world of moving lights. brings a real game
+                                changer in the world of moving lights. brings a real game changer in the world of moving
+                                lights.
+                            </p>
+
+
+                            <p class="narrow">
+                                Specifications
+                                Light Source: Osram lok-it 1400/PS Brilliant
+                                Color Temperature: 6000K
+                                CRI: 90
+                                Beam Angle: 961
+
+                                Control
+                                DMX Channel: 34/40 channels
+                                Control Mode: DMX, Art-Net, RDM, Wireless (optional)
+                                Firmware Upgrade: Update via DMX link
+                            </p>
+                            <br>
+                            <p class="narrow">
+                                Specifications
+                                Light Source: Osram lok-it 1400/PS Brilliant
+                                Color Temperature: 6000K
+                                CRI: 90
+                                Beam Angle: 961
+
+                                Control
+                                DMX Channel: 34/40 channels
+                                Control Mode: DMX, Art-Net, RDM, Wireless (optional)
+                                Firmware Upgrade: Update via DMX link
+                            </p>
+                            <br>
+                            <p class="narrow">
+                                Specifications
+                                Light Source: Osram lok-it 1400/PS Brilliant
+                                Color Temperature: 6000K
+                                CRI: 90
+                                Beam Angle: 961
+
+                                Control
+                                DMX Channel: 34/40 channels
+                                Control Mode: DMX, Art-Net, RDM, Wireless (optional)
+                                Firmware Upgrade: Update via DMX link
+                            </p>
+
+
+                            <ul class="product-parameters-list">
+
+                                <img src="ACME/cct.png" width="489" height="251">
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="row no-padding">
+                        <div class="product-gallery columns large-12">
+                            <div class="image-slider-container">
+
+                                <nav class="slider-navigation mobile-hidden">
+                                    <button class="btn btn-vertical btn-light btn slide-to-left passive"><i
+                                            class="fa fa-angle-double-left fa-2x"></i></button>
+                                    <button class="btn btn-vertical btn-light btn slide-to-right"><i
+                                            class="fa fa-angle-double-right fa-2x"></i></button>
+                                </nav>
+
+                                <div class="slider-wrapper">
+                                    <ul class="slider-list" style="width: 1325px;">
+                                        <li>
+                                            <a href="https://cdn.robe.cz/fileadmin/robe/media/photo/products/bmfl-spot-01.png"></a>
+                                        </li>
+
+                                        <li data-slideid="1" class="slider-item"><a
+                                                href="https://cdn.robe.cz/fileadmin/robe/media/photo/products/bmfl-spot-02.png"
+                                                class="grey-background">
+                                            <img src="./ACME/csm_bmfl-spot-02_e1d325e6de.png" width="232" height="249"
+                                                 alt="BMFL™ Spot" title="BMFL™ Spot">
+                                        </a></li>
+
+                                        <li data-slideid="2" class="slider-item"><a
+                                                href="https://cdn.robe.cz/fileadmin/robe/media/photo/products/bmfl-spot-03.png"
+                                                class="grey-background">
+                                            <img src="./ACME/csm_bmfl-spot-03_1e0c586d0f.png" width="232" height="249"
+                                                 alt="BMFL™ Spot" title="BMFL™ Spot">
+                                        </a></li>
+
+                                        <li data-slideid="3" class="slider-item"><a
+                                                href="https://cdn.robe.cz/fileadmin/robe/media/photo/products/bmfl-spot-04.png"
+                                                class="grey-background">
+                                            <img src="./ACME/csm_bmfl-spot-04_2b2c1d9de1.png" width="232" height="249"
+                                                 alt="BMFL™ Spot" title="BMFL™ Spot">
+                                        </a></li>
+
+                                        <li data-slideid="4" class="slider-item"><a
+                                                href="https://cdn.robe.cz/fileadmin/robe/media/photo/products/bmfl-spot-05.png"
+                                                class="grey-background">
+                                            <img src="./ACME/csm_bmfl-spot-05_1acf491b03.png" width="232" height="249"
+                                                 alt="BMFL™ Spot" title="BMFL™ Spot">
+                                        </a></li>
+
+                                        <li data-slideid="5" class="slider-item"><a
+                                                href="https://cdn.robe.cz/fileadmin/robe/media/photo/products/bmfl-spot-06.png"
+                                                class="grey-background">
+                                            <img src="./ACME/csm_bmfl-spot-06_d54955428f.png" width="232" height="249"
+                                                 alt="BMFL™ Spot" title="BMFL™ Spot">
+                                        </a></li>
+
+
+                                    </ul>
+                                </div>
+                                <div class="slider-points display-tablet-hidden">
+                                    <ul class="slider-points-list dark">
+                                        <li data-slide-target="1" class="slider-point active"></li>
+                                        <li data-slide-target="2" class="slider-point"></li>
+                                        <li data-slide-target="3" class="slider-point"></li>
+                                        <li data-slide-target="4" class="slider-point"></li>
+                                        <li data-slide-target="5" class="slider-point"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section id="specification">
+                    <div class="section-header specification-header red-background-image mobile-toggle">
+                        <div class="row">
+                            <h4 class="white mobile-hidden">technical</h4>
+                            <h2 class="white">specification</h2>
+                        </div>
+                    </div>
+                    <div class="mobile-content section-content">
+                        <div class="row" data-sticky_parent="" style="position: relative;">
+                            <div class="left-block columns large-8 medium-8 small-12">
+                                <ul class="specification-category-list">
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Source</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Lamp: Compact short-arc metal halide lamp</li>
+                                                <li>Base: PGJX28</li>
+                                                <li>Approved model: OSRAM Lok-it! HTI 1700/PS</li>
+                                                <li>Lifetime: 750 hours @ 1700 W / 1500 W / Quiet mode</li>
+                                                <li>CRI 92+, Colour Temperature 6.000 K</li>
+                                                <li>Control: Automatic and remote on/off</li>
+                                                <li>Ballast: Electronic</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Optical system</h4>
+                                        <div class="specification-list">
+                                            <ul><p></p>
+                                                <li>Robe’s proprietary optical design</li>
+                                                <li>High - efficiency zoom optical system, ratio 11:1</li>
+                                                <li>Zoom range 5–55</li>
+                                                <li>Output Lens diameter: 160 mm</li>
+                                                <li>Dichroic glass reflector for maximising the light efficiency</li>
+                                                <li>Fixture total lumen output:<p></p>
+                                                    <ul>
+                                                        <li>40.000 lm at 1700 W</li>
+                                                        <li>36.500 lm at 1500 W</li>
+                                                        <li>32.000 lm at 1200 W (Quiet mode)</li>
+                                                    </ul>
+                                                    <p></p></li>
+                                                <li>Light output: 250.000 lux @ 5m, 2.500 lux @ 50m</li>
+                                                <p></p></ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Dynamic Effects</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Cyan: 0 – 100 %</li>
+                                                <li>Magenta: 0 – 100 %</li>
+                                                <li>Yellow: 0 – 100 %</li>
+                                                <li>Variable CTO: 2.700 – 6.000 K</li>
+                                                <li>Colour wheel 1 with 6 fixed dichroic colours: deep red, deep blue,
+                                                    orange, green, magenta, congo blue + white
+                                                </li>
+                                                <li>Colour wheel 2 with 6 replaceable "SLOT&amp;LOCK" dichroic colours:
+                                                    pink, lavender, laser green, 9000 K CTB, minus half and minus green
+                                                    + white
+                                                </li>
+                                                <li>Rotating Gobo wheel 1:6 rotating, indexable, replaceable "SLOT&amp;LOCK"
+                                                    glass gobos + open
+                                                </li>
+                                                <li>Rotating Gobo wheel 2:6 rotating, indexable, replaceable "SLOT&amp;LOCK"
+                                                    glass gobos + open
+                                                </li>
+                                                <li>Dual Graphic Wheel with two animation discs, individual control of
+                                                    rotation of each disc
+                                                </li>
+                                                <li>Prism 1: 6 facet linear</li>
+                                                <li>Prism 2: 6 facet circular</li>
+                                                <li>Iris: Motorized, stepless, pulse effects up to 3 Hz</li>
+                                                <li>Frost: variable Light, Medium and Heavy Frosts</li>
+                                                <li>Motorized zoom and focus</li>
+                                                <li>Shutter: Separate dual blade system, Variable strobe effect up to 10
+                                                    Hz, full black out
+                                                </li>
+                                                <li>Dimmer: Optimized dual blade system for exceptional smooth dimming
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Control and Programming</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Setting &amp; Addressing: ROBE Navigation System 2 (RNS2)</li>
+                                                <li>Display: QVGA Robe touch screen with battery backup, gravitation
+                                                    sensor for auto screen positioning, operation memory service log
+                                                    with RTC, stand-alone operation with 3 editable programs (each up to
+                                                    100 steps), built-in analyser for easy fault finding
+                                                </li>
+                                                <li>Protocols: USITT DMX-512, RDM, ArtNet, MA Net, MA Net2, sACN</li>
+                                                <li>Wireless CRMX™ technology from Lumen Radio (on request)</li>
+                                                <li>DMX Protocol modes: 2</li>
+                                                <li>Control channels: 41, 33</li>
+                                                <li>Pan/Tilt resolution: 16 bit</li>
+                                                <li>CMY &amp; CTO: 8 bit</li>
+                                                <li>Colour wheel positioning: 8 or 16 bit</li>
+                                                <li>Rotating Gobo Wheel positioning: 8 or 16 bit</li>
+                                                <li>Gobo indexing &amp; rotation: 8 or 16 bit</li>
+                                                <li>Dual Graphic Wheel: 8 bit</li>
+                                                <li>Iris: 8 or 16 bit</li>
+                                                <li>Frost: 8 bit</li>
+                                                <li>Zoom: 8 or 16 bit</li>
+                                                <li>Focus: 8 or 16 bit</li>
+                                                <li>Dimmer: 8 or 16 bit</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Movement</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Pan movement: 540</li>
+                                                <li>Tilt movement: 270</li>
+                                                <li>Movement control: Standard and Speed</li>
+                                                <li>Controllable speed of Pan/Tilt movement</li>
+                                                <li>EMS™: Electronic Motion Stabilizer system for Pan &amp; Tilt
+                                                    reducing beam deviation caused by truss movement or vibration
+                                                    (Patent pending)
+                                                </li>
+                                                <li>Automatic Pan/Tilt position correction</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Rotating Gobos</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>12x Rotating Glass gobos on 2 wheels</li>
+                                                <li>Outside diameter: 30.8 mm</li>
+                                                <li>Image diameter: 25.0 mm</li>
+                                                <li>Thickness: 1.1 mm</li>
+                                                <li>Max. thickness: 3.5 mm</li>
+                                                <li>High temperature borofloat or better glass</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Effect Wheel</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Dual Graphic Wheel</li>
+                                                <li>Material: Aluminium</li>
+                                                <li>Diameter: 96 mm</li>
+                                                <li>Can be used alone or in combination with rotating gobos</li>
+                                                <li>Rotating in both directions, variable speed</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Thermal Specification</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Maximum ambient temperature: 45 C (113 F)</li>
+                                                <li>Maximum surface temperature: 100 C (212 F)</li>
+                                                <li>Minimum operating temperature: -5C (23F)</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Electrical Specification</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Power supply: Electronic auto-ranging</li>
+                                                <li>Input voltage range: 200–240 V, 50/60 Hz</li>
+                                                <li>Power consumption: 2000 W at 230 V / 50 Hz</li>
+                                                <li> Power in connector: Neutrik powerCON</li>
+                                                <li> DMX and RDM data in/out: Locking 3-pin &amp; 5-pin XLR</li>
+                                                <li> Ethernet port in: RJ45</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Approvals</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>CE Compliant</li>
+                                                <li>cETLus Compliant</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Mechanical Specification</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Height: 813 mm (32") – head in vertical position</li>
+                                                <li>Width: 483 mm (19")</li>
+                                                <li>Depth: 335 mm (13.2")</li>
+                                                <li>Weight: 36 kg (79.4 lbs)</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Rigging</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Mounting positions: 0, 32 and 90</li>
+                                                <li>Universal operating position</li>
+                                                <li>Mounting points: 5 pairs of 1/4-turn locking points</li>
+                                                <li>2x Omega adaptors with 1/4-turn quick locks</li>
+                                                <li>Safety cable attachment point</li>
+                                                <li>Pan and Tilt transport locks</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Included Items</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>User Manual</li>
+                                                <li>Omega Adaptor CL-regular 2 pcs</li>
+                                                <li>Power cord including powerCON In connector</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Accessories</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>Lamp Osram Lok-it HTI 1700/PS: 14080049</li>
+                                                <li>BMFL Handles 2 pcs: 10980233</li>
+                                                <li>BMFL Side Handle: 10980396</li>
+                                                <li>Doughty Trigger Clamp: 17030386</li>
+                                                <li>Safety wire 50 kg: 99011957</li>
+                                                <li>Single Top Loader Case: 10120163-02</li>
+                                                <li>Dual Top Loader Case: 10120164-02</li>
+                                                <li>Foam Shell: 20020218-01</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="specification-category-item">
+                                        <h4 class="icon-arrow_down">Legal</h4>
+                                        <div class="specification-list">
+                                            <ul>
+                                                <li>BMFL™ is a trademark of Robe lighting s.r.o.</li>
+                                                <li>BMFL™ Spot is patented by Robe lighting s. r. o. and is protected by
+                                                    one or more pending or issued patent&nbsp;
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="right-block columns large-4 medium-4 product-photo small-0">
+                                <div class="image-container text-center">
+                                    <img src="./ACME/csm_bmfl-spot-02_4da6a5a3af.png" width="465" height="500"
+                                         alt="BMFL™ Spot" title="BMFL™ Spot">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="gobos" class="lightgrey-background">
+                    <div class="section-header mobile-toggle" style="padding-top: 45px;padding-bottom: 45px">
+                        <div class="row">
+                            <h2 class="text-center white">
+                                gobos &amp; colours
+                                </h2>
+                        </div>
+                    </div>
+                    <div id="color">
+                        <div id="colorphoto">
+                            <img src="ACME/color.jpg" width="1180" height="500">
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="multimedia" style="background: #000">
+
+    <div class="section-header mobile-toggle" style="padding-top: 45px;padding-bottom: 45px">
+        <div class="row">
+            <h2 class="text-center white">
+                inspiration
+                </h2>
+        </div>
+    </div>
+    <div class="section-content mobile-content" style="background: #fff">
+
+        <div class="multimedia-slider-container">
+            <button type="button" data-category="images-slides" class="btn btn-border btn-red slides-category active">
+                photo
+            </button>
+
+            <button type="button" data-category="video-slides" class="btn btn-border btn-red slides-category">
+                video
+            </button>
+
+            <nav class="slider-navigation mobile-hidden with-category">
+                <button class="btn btn-vertical btn-light btn slide-to-left"><i class="fa fa-angle-double-right fa-2x"></i>
+                </button>
+                <button class="btn btn-vertical btn-light btn slide-to-right"><i
+                        class="fa fa-angle-double-right fa-2x"></i></button>
+            </nav>
+            <div class="slider-wrapper">
+                <ul id="images-slides" class="slider-list active" style="width: 15300px;">
+
+
+                        <li data-slideid="1" class="slider-item multimedia-content"><a
+                                href="https://robe-live-reunion-01.jpg">
+                            <img src="./ACME/csm_robe-live-reunion-01_3fd3ba908e.jpg" width="590" height="590"
+                                 alt="Robe LIVE at The Sun Arena" title="Robe LIVE at The Sun Arena">
+                        </a></li>
+
+
+                        <li data-slideid="2" class="slider-item multimedia-content large"><a
+                                href="https://robe-live-reunion-03.jpg">
+                            <img src="./ACME/csm_robe-live-reunion-03_0ddf68ce11.jpg" width="590" height="590"
+                                 alt="Robe LIVE at The Sun Arena" title="Robe LIVE at The Sun Arena">
+                        </a></li>
+
+
+                        <li data-slideid="3" class="slider-item multimedia-content"><a
+                                href="https://robe-live-reunion-02.jpg">
+                            <img src="./ACME/csm_robe-live-reunion-02_506ecbce84.jpg" width="590" height="590"
+                                 alt="Robe LIVE at The Sun Arena" title="Robe LIVE at The Sun Arena">
+                        </a></li>
+
+
+                        <li data-slideid="4" class="slider-item multimedia-content"><a
+                                href="https:///robe-peter-graso-01.jpg">
+                            <img src="./ACME/csm_robe-peter-graso-01_05132534ef.jpg" width="590" height="590" alt=""
+                                 title="Robe for Petar Grašo">
+                        </a></li>
+
+
+                        <li data-slideid="5" class="slider-item multimedia-content"><a
+                                href="https:///robe-peter-graso-04.jpg">
+                            <img src="./ACME/csm_robe-peter-graso-04_795959eb4f.jpg" width="590" height="590" alt=""
+                                 title="Robe for Petar Grašo">
+                        </a></li>
+
+
+                        <li data-slideid="6" class="slider-item multimedia-content"><a
+                                href="https:///robe-peter-graso-05.jpg">
+                            <img src="./ACME/csm_robe-peter-graso-05_d3f00390c2.jpg" width="590" height="590" alt=""
+                                 title="Robe for Petar Grašo">
+                        </a></li>
+
+
+                        <li data-slideid="7" class="slider-item multimedia-content"><a
+                                href="https:///robe-peter-graso-02.jpg">
+                            <img src="./ACME/csm_robe-peter-graso-02_db2ac6c3cc.jpg" width="590" height="590" alt=""
+                                 title="Robe for Petar Grašo">
+                        </a></li>
+
+
+                        <li data-slideid="8" class="slider-item multimedia-content"><a
+                                href="https:///robe-peter-graso-03.jpg">
+                            <img src="./ACME/csm_robe-peter-graso-03_cc71415826.jpg" width="590" height="590" alt=""
+                                 title="Robe for Petar Grašo">
+                        </a></li>
+
+
+                        <li data-slideid="9" class="slider-item multimedia-content"><a
+                                href="https:///robe-peter-graso-06.jpg">
+                            <img src="./ACME/csm_robe-peter-graso-06_f946ec67b8.jpg" width="590" height="590" alt=""
+                                 title="Robe for Petar Grašo">
+                        </a></li>
+
+
+                        <li data-slideid="10" class="slider-item multimedia-content"><a
+                                href="https://robe-parni-valjak-zagreb-05.jpg">
+                            <img src="./ACME/csm_robe-parni-valjak-zagreb-05_477f64e9c5.jpg" width="590" height="590" alt=""
+                                 title="Parni Valjak Rocks with MegaPointes">
+                        </a></li>
+
+
+                        <li data-slideid="11" class="slider-item multimedia-content"><a
+                                href="https://robe-parni-valjak-zagreb-06.jpg">
+                            <img src="./ACME/csm_robe-parni-valjak-zagreb-06_9bb2b15f3d.jpg" width="590" height="590" alt=""
+                                 title="Parni Valjak Rocks with MegaPointes">
+                        </a></li>
+
+
+                        <li data-slideid="12" class="slider-item multimedia-content"><a
+                                href="https://robe-parni-valjak-zagreb-01.jpg">
+                            <img src="./ACME/csm_robe-parni-valjak-zagreb-01_dfd3a03e1d.jpg" width="590" height="590" alt=""
+                                 title="Parni Valjak Rocks with MegaPointes">
+                        </a></li>
+
+
+                        <li data-slideid="13" class="slider-item multimedia-content"><a
+                                href="https://robe-parni-valjak-zagreb-02.jpg">
+                            <img src="./ACME/csm_robe-parni-valjak-zagreb-02_633e13ca27.jpg" width="590" height="590" alt=""
+                                 title="Parni Valjak Rocks with MegaPointes">
+                        </a></li>
+
+
+                        <li data-slideid="14" class="slider-item multimedia-content"><a
+                                href="https://robe-parni-valjak-zagreb-04.jpg">
+                            <img src="./ACME/csm_robe-parni-valjak-zagreb-04_4ed097971e.jpg" width="590" height="590" alt=""
+                                 title="Parni Valjak Rocks with MegaPointes">
+                        </a></li>
+
+
+                        <li data-slideid="15" class="slider-item multimedia-content"><a
+                                href="https://robe-parni-valjak-zagreb-03.jpg">
+                            <img src="./ACME/csm_robe-parni-valjak-zagreb-03_b9a00ff214.jpg" width="590" height="590" alt=""
+                                 title="Parni Valjak Rocks with MegaPointes">
+                        </a></li>
+
+
+                        <li data-slideid="16" class="slider-item multimedia-content"><a
+                                href="https:///robe-battles-in-flames-02.jpg">
+                            <img src="./ACME/csm_robe-battles-in-flames-02_92feac3eb9.jpg" width="590" height="590" alt=""
+                                 title="Robe Battles with In Flames">
+                        </a></li>
+
+
+                        <li data-slideid="17" class="slider-item multimedia-content"><a
+                                href="https:///robe-battles-in-flames-01.jpg">
+                            <img src="./ACME/csm_robe-battles-in-flames-01_78e3e6ffe6.jpg" width="590" height="590" alt=""
+                                 title="Robe Battles with In Flames">
+                        </a></li>
+
+
+                        <li data-slideid="18" class="slider-item multimedia-content"><a
+                                href="https:///robe-battles-in-flames-03.jpg">
+                            <img src="./ACME/csm_robe-battles-in-flames-03_7bf32a9d19.jpg" width="590" height="590" alt=""
+                                 title="Robe Battles with In Flames">
+                        </a></li>
+
+
+                        <li data-slideid="19" class="slider-item multimedia-content"><a
+                                href="https:///robe-battles-in-flames-04.jpg">
+                            <img src="./ACME/csm_robe-battles-in-flames-04_5942d32cee.jpg" width="590" height="590" alt=""
+                                 title="Robe Battles with In Flames">
+                        </a></li>
+
+
+                        <li data-slideid="20" class="slider-item multimedia-content"><a
+                                href="https:///robe-battles-in-flames-05.jpg">
+                            <img src="./ACME/csm_robe-battles-in-flames-05_5d03a8d6a4.jpg" width="590" height="590" alt=""
+                                 title="Robe Battles with In Flames">
+                        </a></li>
+
+
+                        <li data-slideid="21" class="slider-item multimedia-content"><a
+                                href="https:///robe-battles-in-flames-06.jpg">
+                            <img src="./ACME/csm_robe-battles-in-flames-06_bf5a20b680.jpg" width="590" height="590" alt=""
+                                 title="Robe Battles with In Flames">
+                        </a></li>
+
+
+                        <li data-slideid="22" class="slider-item multimedia-content"><a
+                                href="https:///robe-battles-in-flames-07.jpg">
+                            <img src="./ACME/csm_robe-battles-in-flames-07_648991f0c0.jpg" width="590" height="590" alt=""
+                                 title="Robe Battles with In Flames">
+                        </a></li>
+
+
+                        <li data-slideid="23" class="slider-item multimedia-content"><a
+                                href="https:///robe-battles-in-flames-08.jpg">
+                            <img src="./ACME/csm_robe-battles-in-flames-08_89e899e0df.jpg" width="590" height="590" alt=""
+                                 title="Robe Battles with In Flames">
+                        </a></li>
+
+
+                        <li data-slideid="24" class="slider-item multimedia-content"><a
+                                href="https://robe-soprano-marseille-03.jpg">
+                            <img src="./ACME/csm_robe-soprano-marseille-03_19c49eae17.jpg" width="590" height="590"
+                                 alt="Robe Hits the High Notes for Soprano Stadium Show"
+                                 title="Robe Hits the High Notes for Soprano Stadium Show">
+                        </a></li>
+
+
+                        <li data-slideid="25" class="slider-item multimedia-content"><a
+                                href="https://robe-soprano-marseille-02.jpg">
+                            <img src="./ACME/csm_robe-soprano-marseille-02_910ccfdad6.jpg" width="590" height="590"
+                                 alt="Robe Hits the High Notes for Soprano Stadium Show"
+                                 title="Robe Hits the High Notes for Soprano Stadium Show">
+                        </a></li>
+
+
+                        <li data-slideid="26" class="slider-item multimedia-content"><a
+                                href="https://robe-soprano-marseille-05.jpg">
+                            <img src="./ACME/csm_robe-soprano-marseille-05_c51674bf48.jpg" width="590" height="590"
+                                 alt="Robe Hits the High Notes for Soprano Stadium Show"
+                                 title="Robe Hits the High Notes for Soprano Stadium Show">
+                        </a></li>
+
+
+                        <li data-slideid="27" class="slider-item multimedia-content"><a
+                                href="https://robe-soprano-marseille-01.jpg">
+                            <img src="./ACME/csm_robe-soprano-marseille-01_ed6c9a2a40.jpg" width="590" height="590"
+                                 alt="Robe Hits the High Notes for Soprano Stadium Show"
+                                 title="Robe Hits the High Notes for Soprano Stadium Show">
+                        </a></li>
+
+
+                        <li data-slideid="28" class="slider-item multimedia-content"><a
+                                href="https://robe-soprano-marseille-04.jpg">
+                            <img src="./ACME/csm_robe-soprano-marseille-04_686c684155.jpg" width="590" height="590"
+                                 alt="Robe Hits the High Notes for Soprano Stadium Show"
+                                 title="Robe Hits the High Notes for Soprano Stadium Show">
+                        </a></li>
+
+
+                        <li data-slideid="29" class="slider-item multimedia-content"><a
+                                href="https://robe-racing-car-show-2018-02.jpg">
+                            <img src="./ACME/csm_robe-racing-car-show-2018-02_b1494f42c3.jpg" width="590" height="590"
+                                 alt="Robe at The Autosport International Racing Car Show 2018"
+                                 title="Robe at The Autosport International Racing Car Show 2018">
+                        </a></li>
+
+
+                        <li data-slideid="30" class="slider-item multimedia-content"><a
+                                href="robe-racing-car-show-2018-03.jpg">
+                            <img src="./ACME/csm_robe-racing-car-show-2018-03_41f22fe60c.jpg" width="590" height="590"
+                                 alt="Robe at The Autosport International Racing Car Show 2018"
+                                 title="Robe at The Autosport International Racing Car Show 2018">
+                        </a></li>
+
+
+                        <li data-slideid="31" class="slider-item multimedia-content"><a
+                                href="https://robe-racing-car-show-2018-06.jpg">
+                            <img src="./ACME/csm_robe-racing-car-show-2018-06_013eeac3a3.jpg" width="590" height="590"
+                                 alt="Robe at The Autosport International Racing Car Show 2018"
+                                 title="Robe at The Autosport International Racing Car Show 2018">
+                        </a></li>
+
+
+                        <li data-slideid="32" class="slider-item multimedia-content"><a
+                                href="https://robe-racing-car-show-2018-05.jpg">
+                            <img src="./ACME/csm_robe-racing-car-show-2018-05_7ac5dd042c.jpg" width="590" height="590"
+                                 alt="Robe at The Autosport International Racing Car Show 2018"
+                                 title="Robe at The Autosport International Racing Car Show 2018">
+                        </a></li>
+
+
+                        <li data-slideid="33" class="slider-item multimedia-content"><a
+                                href="https://robe-racing-car-show-2018-04.jpg">
+                            <img src="./ACME/csm_robe-racing-car-show-2018-04_1ebccf3279.jpg" width="590" height="590"
+                                 alt="Robe at The Autosport International Racing Car Show 2018"
+                                 title="Robe at The Autosport International Racing Car Show 2018">
+                        </a></li>
+
+
+                        <li data-slideid="34" class="slider-item multimedia-content"><a
+                                href="https://robe-racing-car-show-2018-01.jpg">
+                            <img src="./ACME/csm_robe-racing-car-show-2018-01_e5e26fa1d1.jpg" width="590" height="590"
+                                 alt="Robe at The Autosport International Racing Car Show 2018"
+                                 title="Robe at The Autosport International Racing Car Show 2018">
+                        </a></li>
+
+
+                        <li data-slideid="35" class="slider-item multimedia-content"><a
+                                href="https://robe-tpi-awards-2018-03.jpg">
+                            <img src="./ACME/csm_robe-tpi-awards-2018-03_31dc029e32.jpg" width="590" height="590"
+                                 alt="Robe Lights TPi Awards 2018" title="Robe Lights TPi Awards 2018">
+                        </a></li>
+
+
+                        <li data-slideid="36" class="slider-item multimedia-content"><a
+                                href="./ACME/robe-tpi-awards-2018-06.jpg">
+                            <img src="./ACME/csm_robe-tpi-awards-2018-06_5c2ed59180.jpg" width="590" height="590"
+                                 alt="Robe Lights TPi Awards 2018" title="Robe Lights TPi Awards 2018">
+                        </a></li>
+
+
+                        <li data-slideid="37" class="slider-item multimedia-content"><a
+                                href="https://robe-tpi-awards-2018-05.jpg">
+                            <img src="./ACME/csm_robe-tpi-awards-2018-05_d44b526d50.jpg" width="590" height="590"
+                                 alt="Robe Lights TPi Awards 2018" title="Robe Lights TPi Awards 2018">
+                        </a></li>
+
+
+                        <li data-slideid="38" class="slider-item multimedia-content"><a
+                                href="https://robe-tpi-awards-2018-04.jpg">
+                            <img src="./ACME/csm_robe-tpi-awards-2018-04_159f85213d.jpg" width="590" height="590"
+                                 alt="Robe Lights TPi Awards 2018" title="Robe Lights TPi Awards 2018">
+                        </a></li>
+
+
+                        <li data-slideid="39" class="slider-item multimedia-content"><a
+                                href="https://robe-tpi-awards-2018-02.jpg">
+                            <img src="./ACME/csm_robe-tpi-awards-2018-02_bad68ca3a8.jpg" width="590" height="590"
+                                 alt="Robe Lights TPi Awards 2018" title="Robe Lights TPi Awards 2018">
+                        </a></li>
+
+
+                        <li data-slideid="40" class="slider-item multimedia-content"><a
+                                href="https://robe-tpi-awards-2018-01.jpg">
+                            <img src="./ACME/csm_robe-tpi-awards-2018-01_920c59699f.jpg" width="590" height="590"
+                                 alt="Robe Lights TPi Awards 2018" title="Robe Lights TPi Awards 2018">
+                        </a></li>
+
+
+                        <li data-slideid="41" class="slider-item multimedia-content"><a
+                                href="#">
+                            <img src="./ACME/csm_robe-tpi-awards-2018-07_61c40b0c41.jpg" width="590" height="590"
+                                 alt="Robe Lights TPi Awards 2018" title="Robe Lights TPi Awards 2018">
+                        </a></li>
+
+
+                        <li data-slideid="42" class="slider-item multimedia-content"><a
+                                href="#">
+                            <img src="./ACME/csm_robe-for-dead-_-company-01_11a8f983a8.jpg" width="590" height="590"
+                                 alt="Mega Show for Dead &amp; Company" title="Mega Show for Dead &amp; Company">
+                        </a></li>
+
+
+                    <li data-slideid="43" class="slider-item multimedia-content"><a
+                            href="#">
+                        <img src="./ACME/csm_robe-for-dead-_-company-05_c5390c0bc8.jpg" width="590" height="590" alt=""
+                             title="Mega Show for Dead &amp; Company">
+                    </a></li>
+
+
+                    <li data-slideid="44" class="slider-item multimedia-content"><a
+                            href="#">
+                        <img src="./ACME/csm_robe-for-dead-_-company-02_266c058da3.jpg" width="590" height="590" alt=""
+                             title="Mega Show for Dead &amp; Company">
+                    </a></li>
+
+
+                    <li data-slideid="45" class="slider-item multimedia-content"><a
+                            href="#">
+                        <img src="./ACME/csm_robe-for-dead-_-company-04_29985a9aca.jpg" width="590" height="590"
+                             alt="Mega Show for Dead &amp; Company" title="Mega Show for Dead &amp; Company">
+                    </a></li>
+
+
+                    <li data-slideid="46" class="slider-item multimedia-content"><a
+                            href="#">
+                        <img src="./ACME/csm_robe-for-dead-_-company-03_2bb251cba8.jpg" width="590" height="590" alt=""
+                             title="Mega Show for Dead &amp; Company">
+                    </a></li>
+
+
+                    <li data-slideid="47" class="slider-item multimedia-content"><a
+                            href="#">
+                        <img src="./ACME/csm_robe-zagreb-festival-03_f18c00f0de.jpg" width="590" height="590"
+                             alt="Robe for Zagreb Festival" title="Robe for Zagreb Festival">
+                    </a></li>
+
+
+                    <li data-slideid="48" class="slider-item multimedia-content"><a
+                            href="./ACME/robe-zagreb-festival-05.jpg">
+                        <img src="./ACME/csm_robe-zagreb-festival-05_406b190eb0.jpg" width="590" height="590"
+                             alt="Robe for Zagreb Festival" title="Robe for Zagreb Festival">
+                    </a></li>
+
+
+                    <li data-slideid="49" class="slider-item multimedia-content"><a
+                            href="#">
+                        <img src="./ACME/csm_robe-zagreb-festival-04_ce968aebe5.jpg" width="590" height="590"
+                             alt="Robe for Zagreb Festival" title="Robe for Zagreb Festival">
+                    </a></li>
+
+
+                    <li data-slideid="50" class="slider-item multimedia-content"><a
+                            href="#">
+                        <img src="./ACME/csm_robe-zagreb-festival-06_e62d26c51e.jpg" width="590" height="590"
+                             alt="Robe for Zagreb Festival" title="Robe for Zagreb Festival">
+                    </a></li>
+
+
+                </ul>
+                <ul id="video-slides" class="slider-list video youtube-content" style="width: 15000px;">
+
+                    <li data-slideid="1" class="slider-item multimedia-content"></li>
+
+
+                    <li data-slideid="2" class="slider-item multimedia-content">
+                        <a href="#"
+                           data-iframe="http://player.youku.com/embed/XMzYyNjA3OTMxMg==">
+
+                            <img alt="BMFL™ Spot product video" src="./ACME/robin_bmfl_spot_product_video.jpg"
+                                 width="922" height="519" title="BMFL™ Spot product video">
+
+                        </a>
+                    </li>
+
+                    <li data-slideid="3" class="slider-item multimedia-content"></li>
+
+                </ul>
+                <div id="videoModal" class="reveal-modal large" data-reveal="" aria-labelledby="videoModalTitle"
+                     aria-hidden="true" role="dialog">
+                    <div class="flex-video widescreen vimeo">
+                    </div>
+
+                    <a class="close-reveal-modal" aria-label="Close">×</a>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+            <div class="slider-points display-tablet-hidden">
+                <ul class="slider-points-list dark">
+                    <li data-slide-target="1" class="slider-point active"></li>
+                    <li data-slide-target="2" class="slider-point"></li>
+                    <li data-slide-target="3" class="slider-point"></li>
+                    <li data-slide-target="4" class="slider-point"></li>
+                    <li data-slide-target="5" class="slider-point"></li>
+                    <li data-slide-target="6" class="slider-point"></li>
+                    <li data-slide-target="7" class="slider-point"></li>
+                    <li data-slide-target="8" class="slider-point"></li>
+                    <li data-slide-target="9" class="slider-point"></li>
+                    <li data-slide-target="10" class="slider-point"></li>
+                    <li data-slide-target="11" class="slider-point"></li>
+                    <li data-slide-target="12" class="slider-point"></li>
+                    <li data-slide-target="13" class="slider-point"></li>
+                    <li data-slide-target="14" class="slider-point"></li>
+                    <li data-slide-target="15" class="slider-point"></li>
+                    <li data-slide-target="16" class="slider-point"></li>
+                    <li data-slide-target="17" class="slider-point"></li>
+                    <li data-slide-target="18" class="slider-point"></li>
+                    <li data-slide-target="19" class="slider-point"></li>
+                    <li data-slide-target="20" class="slider-point"></li>
+                    <li data-slide-target="21" class="slider-point"></li>
+                    <li data-slide-target="22" class="slider-point"></li>
+                    <li data-slide-target="23" class="slider-point"></li>
+                    <li data-slide-target="24" class="slider-point"></li>
+                    <li data-slide-target="25" class="slider-point"></li>
+                    <li data-slide-target="26" class="slider-point"></li>
+                    <li data-slide-target="27" class="slider-point"></li>
+                    <li data-slide-target="28" class="slider-point"></li>
+                    <li data-slide-target="29" class="slider-point"></li>
+                    <li data-slide-target="30" class="slider-point"></li>
+                    <li data-slide-target="31" class="slider-point"></li>
+                    <li data-slide-target="32" class="slider-point"></li>
+                    <li data-slide-target="33" class="slider-point"></li>
+                    <li data-slide-target="34" class="slider-point"></li>
+                    <li data-slide-target="35" class="slider-point"></li>
+                    <li data-slide-target="36" class="slider-point"></li>
+                    <li data-slide-target="37" class="slider-point"></li>
+                    <li data-slide-target="38" class="slider-point"></li>
+                    <li data-slide-target="39" class="slider-point"></li>
+                    <li data-slide-target="40" class="slider-point"></li>
+                    <li data-slide-target="41" class="slider-point"></li>
+                    <li data-slide-target="42" class="slider-point"></li>
+                    <li data-slide-target="43" class="slider-point"></li>
+                    <li data-slide-target="44" class="slider-point"></li>
+                    <li data-slide-target="45" class="slider-point"></li>
+                    <li data-slide-target="46" class="slider-point"></li>
+                    <li data-slide-target="47" class="slider-point"></li>
+                    <li data-slide-target="48" class="slider-point"></li>
+                    <li data-slide-target="49" class="slider-point"></li>
+                    <li data-slide-target="50" class="slider-point"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="downloads">
+    <div class="section-header mobile-toggle">
+        <div class="row">
+            <h2 class="white">downloads</h2>
+        </div>
+    </div>
+    <div class="mobile-content section-content">
+        <div class="row">
+            <p class="perex">
+                Here you can find all technical and marketing documents related to this product.
+
+            </p>
+            <a href="#">
+                <button type="buttno" class="btn btn-border btn-centered">View files</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section id="accessories">
+    <div class="section-header mobile-toggle">
+        <div class="row">
+            <h2>accessories</h2>
+        </div>
+    </div>
+    <div class="mobile-content section-content">
+        <div class="row">
+
+            <ul class="accessories-list">
+
+                <li class="accessories-item large-4 medium-6 small-12 columns">
+                    <a href="#">
+                        <div class="text-center image-container">
+                            <img src="./ACME/csm_single-top-loader-case-bmfl-01_2c84aaa4c9.png" width="266" height="285"
+                                 alt="Single Top Loader Case BMFL™" title="Single Top Loader Case BMFL™">
+                        </div>
+                        <span class="title">Single Top Loader Case BMFL™</span>
+                    </a>
+                    <div class="like-container">
+                        <button class="btn btn-circle btn-icon btn-grey" type="button">
+                            <i class="fa fa-thumbs-up"></i>
+                        </button>
+                    </div>
+
+                </li>
+
+                <li class="accessories-item large-4 medium-6 small-12 columns">
+                    <a href="#">
+                        <div class="text-center image-container">
+                            <img src="./ACME/csm_dual-top-loader-case-bmfl-01_928788fe5f.png" width="266" height="285"
+                                 alt="Dual Top Loader Case BMFL™" title="Dual Top Loader Case BMFL™">
+                        </div>
+                        <span class="title">Dual Top Loader Case BMFL™</span>
+                    </a>
+                    <div class="like-container">
+                        <button class="btn btn-circle btn-icon btn-grey" type="button">
+                            <i class="fa fa-thumbs-up"></i>
+                        </button>
+                    </div>
+
+                </li>
+
+                <li class="accessories-item large-4 medium-6 small-12 columns">
+                    <a href="#">
+                        <div class="text-center image-container">
+                            <img src="./ACME/csm_foam-shell-bmfl-01_fa702ab3ce.png" width="266" height="285"
+                                 alt="Foam Shell BMFL™" title="Foam Shell BMFL™">
+                        </div>
+                        <span class="title">Foam Shell BMFL™</span>
+                    </a>
+                    <div class="like-container">
+                        <button class="btn btn-circle btn-icon btn-grey" type="button">
+                            <i class="fa fa-thumbs-up"></i>
+                        </button>
+                    </div>
+
+                </li>
+
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</section>
+<div class="footer text-center">
+    <img src="../img/Acme Logo 2017 B3.png" alt="">
+    <p class="text-left" style="font-size:14px;letter-spacing:0;line-height: 1.5;color: #fff">
+        COPYRIGHT © 1985 - 2017 ACME
+        <br>
+        GD ICP 12087210-2
+    </p>
+    <a href="#">
+        <img src="../img/i1.gif" alt="">
+    </a>
+    <a href="#">
+        <img src="../img/i2.gif" alt="">
+    </a>
+    <a href="#">
+        <img src="../img/i3.gif" alt="">
+    </a>
+    <a href="#">
+        <img src="../img/i4.gif" alt="">
+    </a>
+    <a href="#">
+        <img src="../img/i5.gif" alt="">
+    </a>
+</div>
+<script src="../js/jquery-3.1.0.min.js"></script>
+<script src="../css/bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/floatingcarousel.min.js" type="text/javascript"></script>
+<script src="../js/respond.min.js"></script>
+<script>
+    $(function () {
+        $(".dropdown").mouseover(function () {
+            $(this).addClass("open");
+            $(".dropdown").mouseout(function () {
+                $(this).removeClass("open");
+            });
+        });
+        $(window).scroll(function () {
+            var y = window.scrollY;
+            if (y > 300) {
+                $(".nav1").addClass("navbar-fixed-top");
+                $(".navbar-brand").hide();
+                $(".nav2").addClass("nav-fex");
+            }
+            else {
+                $(".nav1").removeClass("navbar-fixed-top");
+                $(".navbar-brand").show();
+                $(".nav2").removeClass("nav-fex");
+            }
+        });
+    })
+
+</script>
+<script src="./ACME/jquery-all.1452164033.js" type="text/javascript"></script>
+<script src="./ACME/plugins-concat.1452164037.js" type="text/javascript"></script>
+<script src="./ACME/loadingoverlay.min.1471326106.js" type="text/javascript"></script>
+<script src="./ACME/main.1518613547.js" type="text/javascript"></script>
+<script src="./ACME/owl.carousel.min.1470825794.js" type="text/javascript"></script>
+<script src="./ACME/scrollspy.1473080545.js" type="text/javascript"></script>
+<script src="./ACME/jquery.sticky-kit.min.1464069092.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    /*TS_inlineFooter*/
+    $(document).ready(function () {
+
+
+        imageSlider = new RobeSlider({
+            container: $(".image-slider-container")
+        })
+
+        multimediaSlider = new RobeSlider({
+            container: $(".multimedia-slider-container"),
+            middleLarge: true,
+            infinite: true
+        });
+
+        newsSlider = new RobeSlider({
+            container: $(".news-slider-container")
+        });
+
+        AnchorsStickyMenu();
+
+        $('body').scrollspy({target: ".anchors-menu-wrapper", offset: 70});
+    });
+    $(document).ready(function () {
+        var screen = $(window);
+        if (screen.width() > 768) {
+            $(".product-image").stick_in_parent({offset_top: 80})
+            $(".product-image").on('sticky_kit:stick', function (e) {
+
+                var h = ($(this).parent().next().outerHeight(true));
+
+                $(this).parent().height(h);
+            });
+            $(".right-block").stick_in_parent({offset_top: 150});
+            $(".right-block").on('sticky_kit:stick', function (e) {
+
+                var h = ($(this).parent().prev().outerHeight(true));
+
+                $(this).parent().height(h);
+            });
+        }
+    });
+
+    /*]]>*/
+</script>
+
+</body>
+</html>

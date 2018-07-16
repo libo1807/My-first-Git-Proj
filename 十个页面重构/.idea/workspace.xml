@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3297f7dc-fd9c-4e21-bfd0-6477319bcf64" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>live</find>
+      <find>open</find>
+      <find>click</find>
+      <find>fex</find>
+      <find>nav</find>
+      <find>navbar-brand</find>
+      <find>.navbar-nav .open .dropdown-menu</find>
+      <find>body</find>
+      <find>min</find>
+      <find>id=&quot;carphoto1&quot;</find>
+      <find>http://www.</find>
+      <find>act</find>
+      <find>min-hi</find>
+      <find>md</find>
+      <find>id=&quot;1111&quot;</find>
+      <find>id=&quot;acme2&quot;</find>
+      <find>100v</find>
+      <find>.modal-backdrop.in</find>
+      <find>select</find>
+      <find>gobos</find>
+      <find>ins</find>
+      <find>container</find>
+      <find>class=&quot;container&quot;</find>
+      <find>main-icons icon-arrow_right</find>
+      <find>video</find>
+      <find>icon im-thumbs-up</find>
+      <find>&lt;a href=&quot;https://www.robe.cz/single-top-loader-case-bmfl/&quot;&gt;</find>
+      <find>&lt;a href=&quot;https://www.robe.cz/foam-shell-bmfl/&quot;&gt;</find>
+      <find>img/</find>
+      <find>https://www.</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>md</replace>
+      <replace>m</replace>
+      <replace>class=&quot;carphoto1&quot;</replace>
+      <replace>lg</replace>
+      <replace>class=&quot;acme2&quot;</replace>
+      <replace>class=&quot;a1111&quot;</replace>
+      <replace>select class=&quot;mselect&quot;</replace>
+      <replace>class=&quot;container-fulid fid2&quot;</replace>
+      <replace>fa fa-thumbs-up</replace>
+      <replace>&lt;a href=&quot;#&quot;&gt;</replace>
+      <replace>ACME/img/</replace>
+      <replace>#</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/资讯中心/index.html" />
+        <option value="$PROJECT_DIR$/js/jquery-1.6.3.min.js" />
+        <option value="$PROJECT_DIR$/js/jquery.featureCarousel.js" />
+        <option value="$PROJECT_DIR$/css/reset.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/工程案例/index.html" />
+        <option value="$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/工程案例/copy.html" />
+        <option value="$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/灯库下载-/css/style.css" />
+        <option value="$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/灯库下载-/copy.html" />
+        <option value="$PROJECT_DIR$/pages/gongcheng.html" />
+        <option value="$PROJECT_DIR$/pages/guanyu.html" />
+        <option value="$PROJECT_DIR$/pages/jishu.html" />
+        <option value="$PROJECT_DIR$/pages/shouye.html" />
+        <option value="$PROJECT_DIR$/pages/zixun.html" />
+        <option value="$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/传媒中心/copy.html" />
+        <option value="$PROJECT_DIR$/pages/chuanmei.html" />
+        <option value="$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/产品介绍/copy.html" />
+        <option value="$PROJECT_DIR$/pages/ACME/css/overwrites.1518595822.css" />
+        <option value="$PROJECT_DIR$/pages/ACME/css/main.1518705544.css" />
+        <option value="$PROJECT_DIR$/css/media.css" />
+        <option value="$PROJECT_DIR$/pages/copy.html" />
+        <option value="$PROJECT_DIR$/css/re.css" />
+        <option value="$PROJECT_DIR$/pages/xiangqing.html" />
+        <option value="$PROJECT_DIR$/pages/yiji.html" />
+        <option value="$PROJECT_DIR$/css/hover.css" />
+        <option value="$PROJECT_DIR$/pages/erji.html" />
+        <option value="$PROJECT_DIR$/pages/dengku.html" />
+        <option value="$PROJECT_DIR$/pages/libo1.html" />
+        <option value="$PROJECT_DIR$/pages/libo2.html" />
+        <option value="$PROJECT_DIR$/css/libo.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="十个页面重构" type="b2602c69:ProjectViewProjectNode" />
+              <item name="十个页面重构" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="十个页面重构" type="b2602c69:ProjectViewProjectNode" />
+              <item name="十个页面重构" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="十个页面重构" type="b2602c69:ProjectViewProjectNode" />
+              <item name="十个页面重构" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\weijiezhang\十个页面重构\pages" />
+      <recent name="E:\未结账项目\十个页面重构\img" />
+      <recent name="E:\未结账项目\十个页面重构\pages" />
+      <recent name="E:\未结账项目\十个页面重构\pages\ACME\img" />
+      <recent name="E:\未结账项目\十个页面重构\pages\ACME\font" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\未结账项目\十个页面重构\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3297f7dc-fd9c-4e21-bfd0-6477319bcf64" name="Default" comment="" />
+      <created>1527229814517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527229814517</updated>
+      <workItem from="1527229815813" duration="14477000" />
+      <workItem from="1527258069882" duration="3752000" />
+      <workItem from="1527305758268" duration="22650000" />
+      <workItem from="1527344260751" duration="5298000" />
+      <workItem from="1527393689333" duration="23295000" />
+      <workItem from="1527421999671" duration="109000" />
+      <workItem from="1527579263251" duration="20000" />
+      <workItem from="1527581100568" duration="7077000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76678000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/guanyu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15288">
+          <caret line="588" column="10" lean-forward="true" selection-start-line="588" selection-start-column="10" selection-end-line="588" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48126">
+          <caret line="1851" column="12" selection-start-line="1851" selection-start-column="12" selection-end-line="1851" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2054">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/re.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12896">
+          <caret line="496" column="8" selection-start-line="496" selection-start-column="8" selection-end-line="496" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guanyu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6500">
+          <caret line="250" column="51" selection-start-line="250" selection-start-column="51" selection-end-line="250" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29718">
+          <caret line="1143" column="13" selection-start-line="1143" selection-start-column="11" selection-end-line="1143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2054">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/re.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4888">
+          <caret line="188" column="20" selection-start-line="188" selection-start-column="20" selection-end-line="188" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6604">
+          <caret line="254" column="6" lean-forward="true" selection-start-line="254" selection-start-column="6" selection-end-line="256" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/re.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4030">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1664">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4758">
+          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/资讯中心/css/jq22.css" />
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.6.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="1" column="2752" selection-start-line="1" selection-start-column="2752" selection-end-line="1" selection-end-column="2752" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.featureCarousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="631" column="24" selection-start-line="631" selection-start-column="24" selection-end-line="631" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="759" column="24" selection-start-line="759" selection-start-column="19" selection-end-line="759" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/资讯中心/index.html" />
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/关于ACME/css/style2.css" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/工程案例/index.html" />
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/工程案例/copy.html" />
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/灯库下载-/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/灯库下载-/copy.html" />
+    <entry file="file://$PROJECT_DIR$/css/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="5551" column="12" selection-start-line="5551" selection-start-column="12" selection-end-line="5551" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/灯库下载-/index.html" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.searchableSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6452">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/guanyu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/zixun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/shouye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/jishu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/传媒中心/copy.html" />
+    <entry file="file://$PROJECT_DIR$/../10个页面/毅丰拆板文件/官网页面集合2018.4.26/官网页面集合/产品介绍/copy.html" />
+    <entry file="file://$PROJECT_DIR$/pages/chuanmei.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="414" column="42" lean-forward="true" selection-start-line="414" selection-start-column="42" selection-end-line="414" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ACME/css/overwrites.1518595822.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ACME/css/main.1518705544.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="9779" column="28" selection-start-line="9779" selection-start-column="28" selection-end-line="9779" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gongcheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/xiangqing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="369" column="57" selection-start-line="369" selection-start-column="53" selection-end-line="369" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/yiji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="341" column="36" lean-forward="true" selection-start-line="341" selection-start-column="36" selection-end-line="341" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/erji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/re.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/libo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="256" column="10" selection-start-line="256" selection-start-column="10" selection-end-line="256" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2494">
+          <caret line="2835" selection-start-line="2835" selection-end-line="2835" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dengku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2835">
+          <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/libo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/libo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="280" column="10" selection-start-line="280" selection-start-column="10" selection-end-line="280" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,79 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, code, img, sub, sup, dl, dt, dd, ol, ul, li, form, label, table, tbody, tr, th, td, article, aside, canvas, footer, header, menu, nav, ruby, audio, video {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif !important;
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  text-align: left;
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: middle;
+}
+.floatfix{
+  zoom:1;
+}
+.floatfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+.chuizhi{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/*# sourceMappingURL=reset.css.map */
+/*{*/
+  /*transition: width 2s;*/
+  /*-moz-transition: width 2s;	!* Firefox 4 *!*/
+  /*-webkit-transition: width 2s;	!* Safari 和 Chrome *!*/
+  /*-o-transition: width 2s;	!* Opera *!*/
+/*}*/
+.dropdown{
+  transition: 0.3s;
+}
+
+@font-face {
+  font-family: "Ostrich_Sans_Black";
+  src:url('font/ostrich_sans_black/ostrich_black-webfont.ttf') format('truetype'),
+  url('font/ostrich_sans_black/ostrich_black-webfont.eot') format('embedded-opentype'),
+  url("font/ostrich_sans_black/ostrich_black-webfont.woff") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open_Sans_L";
+  src:url('font/open_sans/OpenSans-Light-webfont.ttf') format('truetype'),
+  url('font/open_sans/OpenSans-Light-webfont.eot') format('embedded-opentype'),
+  url("font/open_sans/OpenSans-Light-webfont.woff") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bgr{
+  background: red;
+}

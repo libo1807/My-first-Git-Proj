@@ -1,0 +1,86 @@
+.lift{
+    min-height: 400px;
+    background-color: #0076bc;
+    margin-top: 40px;
+}
+.lift h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 50px;
+    margin-bottom: 60px;
+
+}
+.lift button{
+    background-color:#0076bc;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+
+}
+.con{
+    margin-bottom: 80px;
+}
+.wen h1{
+    text-align: center;
+    color: #0076bc;
+    font-size: 45px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.lefts{
+    min-height: 110px;
+    background-color: #0076bc;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.lefts p{
+    color: #fff;
+    margin-left: 20px;
+    padding-top: 15px;
+
+}
+.lefts button{
+    border-radius: 8px;
+    outline: none;
+}
+.lefts input{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70%;
+}
+.lefts select{
+    outline: none;
+    background-color: #0076bc;
+    border: 1px solid #fff;
+    color: #50a1d1;
+    margin-left: 20px;
+    width: 32%;
+    margin-top: 10px;
+    -webkit-appearance:button;
+    border-radius:0;
+}
+.day p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.day span{
+    margin-left: 20px;
+}
+.day img{
+    float: right;
+
+}
+.day hr{
+    clear: both;
+    margin-top: 30px;
+}
+.ff{
+    float: left;
+}

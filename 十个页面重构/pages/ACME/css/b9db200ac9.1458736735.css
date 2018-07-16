@@ -1,0 +1,17 @@
+/* default styles for extension "tx_felogin_pi1" */
+		.tx-felogin-pi1 label {
+			display: block;
+		}
+#color {
+	height: auto;
+	width: 100%;
+}
+#colorphoto {
+	height: auto;
+	width: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+}

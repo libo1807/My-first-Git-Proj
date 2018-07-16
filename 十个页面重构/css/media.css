@@ -1,0 +1,135 @@
+@media (max-width: 767px){
+    .min-hide{
+        display: none;
+    }
+    .frow-title{
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0;
+    }
+    .frow-title2{
+        font-size: 14px;
+        line-height: 14px;
+        margin: 0;
+    }
+    .frow{
+        text-align: center;
+    }
+    .flx,.flx2{
+        justify-content: center;
+    }
+    #searchrow{
+        width: 100%;
+    }
+    #search{
+        font-size: 12px !important;
+    }
+    .ji-row .frow-title{
+        font-size: 30px;
+    }
+    .ji-row .frow-title + h1{
+        font-size: 30px;
+    }
+    .more-row img{
+        width: 100%;
+        display: block;
+        margin: 5px auto;
+        float: none;
+    }
+    #tcdt1{
+        width: 90%;
+    }
+    .a-row3{
+        background: #000;
+    }
+    .cont {
+        padding: 0;
+        margin-left: 0;
+    }
+    .el__bg {
+        width: 500%;
+    }
+    .el__text{
+        font-size: 20px;
+    }
+    .a1111{
+        margin-left: 0;
+    }
+    .a1111 img{
+        width: 200px;
+        display: block;
+        margin: 10px auto;
+    }
+    .phonenav{
+        display: block;
+    }
+
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .r{
+        text-align: left;
+    }
+    .r input{
+        margin: 10px 0;
+    }
+    .myflex div {
+        flex: 0 0 50% !important;
+    }
+    .fixed {
+        top: 50px !important;
+    }
+    .anchors-menu-list .anchors-menu-item a {
+        padding: 5px 10px;
+        font-size: 12px;
+        height: 30px;
+        min-height: 30px;
+    }
+    .anchors-menu-list{
+        min-height: 30px;
+    }
+}
+@media (max-width: 1350px) {
+    .max-hide{
+        display: none;
+    }
+    .myflex div {
+        flex: 0 0 25%;
+    }
+}
+@media (max-width: 1000px){
+    .myflex div {
+        flex: 0 0 33.333333%;
+    }
+    .zi-con{
+        display: none;
+    }
+    .page{
+        text-align: center;
+    }
+    .page nav{
+        margin: 0;
+    }
+    .more-row img{
+        width: 50%;
+    }
+    .page p{
+        margin: 0;
+    }
+    .ji-row .frow-title{
+        text-align: center;
+    }
+    .ji-row{
+        background: transparent;
+    }
+    .ji-row .frow-title + h1{
+        text-align: center;
+    }
+    .j-img img{
+        width: auto;
+    }
+    .a-row5 img{
+        width: 100%;
+    }
+}
